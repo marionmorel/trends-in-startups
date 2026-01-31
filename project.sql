@@ -22,3 +22,7 @@ WHERE stage = 'Seed';
 -- Task 6
 SELECT MIN(founded)
 FROM startups;
+
+-- Task 7
+SELECT AVG(valuation)
+FROM startups;
