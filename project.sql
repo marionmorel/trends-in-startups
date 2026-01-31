@@ -53,3 +53,8 @@ SELECT category, COUNT(*)
 FROM startups
 GROUP BY category
 HAVING COUNT(*) > 3;
+
+-- Task 13
+SELECT location, AVG(employees)
+FROM startups
+GROUP BY location;
