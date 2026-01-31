@@ -13,3 +13,8 @@ FROM startups;
 -- Task 4
 SELECT MAX(raised)
 FROM startups;
+
+-- Task 5
+SELECT MAX(raised)
+FROM startups
+WHERE stage = 'Seed';
