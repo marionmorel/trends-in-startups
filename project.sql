@@ -9,3 +9,7 @@ FROM startups;
 -- Task 3
 SELECT SUM(valuation)
 FROM startups;
+
+-- Task 4
+SELECT MAX(raised)
+FROM startups;
