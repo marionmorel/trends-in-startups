@@ -58,3 +58,9 @@ HAVING COUNT(*) > 3;
 SELECT location, AVG(employees)
 FROM startups
 GROUP BY location;
+
+-- Task 14
+SELECT location, AVG(employees)
+FROM startups
+GROUP BY location
+HAVING AVG(employees) > 500;
