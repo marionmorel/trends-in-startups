@@ -31,3 +31,8 @@ FROM startups;
 SELECT category, AVG(valuation)
 FROM startups
 GROUP BY category;
+
+-- Task 9
+SELECT category, ROUND(AVG(valuation), 2)
+FROM startups
+GROUP BY category;
