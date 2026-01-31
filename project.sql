@@ -18,3 +18,7 @@ FROM startups;
 SELECT MAX(raised)
 FROM startups
 WHERE stage = 'Seed';
+
+-- Task 6
+SELECT MIN(founded)
+FROM startups;
