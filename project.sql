@@ -26,3 +26,8 @@ FROM startups;
 -- Task 7
 SELECT AVG(valuation)
 FROM startups;
+
+-- Task 8
+SELECT category, AVG(valuation)
+FROM startups
+GROUP BY category;
