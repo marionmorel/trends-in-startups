@@ -47,3 +47,9 @@ ORDER BY ROUND(AVG(valuation), 2) DESC;
 SELECT category, COUNT(*)
 FROM startups
 GROUP BY category;
+
+-- Task 12
+SELECT category, COUNT(*)
+FROM startups
+GROUP BY category
+HAVING COUNT(*) > 3;
