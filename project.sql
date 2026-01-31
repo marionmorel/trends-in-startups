@@ -42,3 +42,8 @@ SELECT category, ROUND(AVG(valuation), 2)
 FROM startups
 GROUP BY category
 ORDER BY ROUND(AVG(valuation), 2) DESC;
+
+-- Task 11
+SELECT category, COUNT(*)
+FROM startups
+GROUP BY category;
